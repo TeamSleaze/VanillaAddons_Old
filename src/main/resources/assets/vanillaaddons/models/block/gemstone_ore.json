@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "vanillaaddons:blocks/gemstone_ore"
+  }
+}

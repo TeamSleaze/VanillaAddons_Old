@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "vanillaaddons:rough_netherite_pickaxe",
+    "vanillaaddons:flawed_netherite_pickaxe",
+    "vanillaaddons:fine_netherite_pickaxe",
+    "vanillaaddons:flawless_netherite_pickaxe",
+    "vanillaaddons:perfect_netherite_pickaxe"
+  ]
+}

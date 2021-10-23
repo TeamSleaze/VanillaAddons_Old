@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "vanillaaddons:items/fine_netherite_pickaxe"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "itemGroup.vanillaaddons.general": "Vanilla Addons",
+  "itemGroup.vanillaaddons.tools": "Tools",
+
+  "item.vanillaaddons.gemstone": "Gemstone",
+  "block.vanillaaddons.gemstone_ore": "Gemstone Ore",
+
+  "item.vanillaaddons.rough_netherite_pickaxe": "Netherite Pickaxe",
+  "item.vanillaaddons.flawed_netherite_pickaxe": "Netherite Pickaxe",
+  "item.vanillaaddons.fine_netherite_pickaxe": "Netherite Pickaxe",
+  "item.vanillaaddons.flawless_netherite_pickaxe": "Netherite Pickaxe",
+  "item.vanillaaddons.perfect_netherite_pickaxe": "Netherite Pickaxe",
+
+  "tooltip.vanillaaddons.empty_line": "",
+
+  "tooltip.vanillaaddons.rough": "Rough",
+  "tooltip.vanillaaddons.flawed": "Flawed",
+  "tooltip.vanillaaddons.fine": "Fine",
+  "tooltip.vanillaaddons.flawless": "Flawless",
+  "tooltip.vanillaaddons.perfect": "Perfect",
+
+  "tooltip.vanillaaddons.counter": "(%d)"
+}
