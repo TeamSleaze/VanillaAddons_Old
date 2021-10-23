@@ -1,5 +1,6 @@
-package com.MineralWarrior.VanillaAddons.registry;
+package com.MineralWarrior.VanillaAddons.registry.gemmed_items;
 
+import com.MineralWarrior.VanillaAddons.registry.ModItems;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.*;
 import net.minecraft.text.Text;
@@ -12,7 +13,7 @@ import java.util.List;
 
 public class GemmedPickaxeItem extends PickaxeItem {
 
-    protected GemmedPickaxeItem(ToolMaterial material) {
+    public GemmedPickaxeItem(ToolMaterial material) {
         super(material, 6, -2.8f, new Item.Settings());
     }
 
