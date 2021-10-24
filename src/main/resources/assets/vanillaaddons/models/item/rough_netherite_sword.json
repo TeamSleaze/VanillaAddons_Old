@@ -1,0 +1,7 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "vanillaaddons:items/netherite_sword",
+    "layer1": "vanillaaddons:items/rough_sword"
+  }
+}

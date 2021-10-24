@@ -1,7 +1,7 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "vanillaaddons:items/netherite_pickaxe",
+    "layer0": "vanillaaddons:items/netherite_axe",
     "layer1": "vanillaaddons:items/rough_tool"
   }
 }

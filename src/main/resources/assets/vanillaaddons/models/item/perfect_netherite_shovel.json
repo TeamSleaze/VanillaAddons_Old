@@ -1,7 +1,7 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "vanillaaddons:items/netherite_pickaxe",
+    "layer0": "vanillaaddons:items/netherite_shovel",
     "layer1": "vanillaaddons:items/perfect_tool"
   }
 }

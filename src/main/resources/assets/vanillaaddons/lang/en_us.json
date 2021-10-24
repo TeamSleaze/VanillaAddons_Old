@@ -5,11 +5,35 @@
   "item.vanillaaddons.gemstone": "Gemstone",
   "block.vanillaaddons.gemstone_ore": "Gemstone Ore",
 
+  "item.vanillaaddons.rough_netherite_sword": "Netherite Sword",
+  "item.vanillaaddons.flawed_netherite_sword": "Netherite Sword",
+  "item.vanillaaddons.fine_netherite_sword": "Netherite Sword",
+  "item.vanillaaddons.flawless_netherite_sword": "Netherite Sword",
+  "item.vanillaaddons.perfect_netherite_sword": "Netherite Sword",
+
   "item.vanillaaddons.rough_netherite_pickaxe": "Netherite Pickaxe",
   "item.vanillaaddons.flawed_netherite_pickaxe": "Netherite Pickaxe",
   "item.vanillaaddons.fine_netherite_pickaxe": "Netherite Pickaxe",
   "item.vanillaaddons.flawless_netherite_pickaxe": "Netherite Pickaxe",
   "item.vanillaaddons.perfect_netherite_pickaxe": "Netherite Pickaxe",
+
+  "item.vanillaaddons.rough_netherite_axe": "Netherite Axe",
+  "item.vanillaaddons.flawed_netherite_axe": "Netherite Axe",
+  "item.vanillaaddons.fine_netherite_axe": "Netherite Axe",
+  "item.vanillaaddons.flawless_netherite_axe": "Netherite Axe",
+  "item.vanillaaddons.perfect_netherite_axe": "Netherite Axe",
+
+  "item.vanillaaddons.rough_netherite_shovel": "Netherite Shovel",
+  "item.vanillaaddons.flawed_netherite_shovel": "Netherite Shovel",
+  "item.vanillaaddons.fine_netherite_shovel": "Netherite Shovel",
+  "item.vanillaaddons.flawless_netherite_shovel": "Netherite Shovel",
+  "item.vanillaaddons.perfect_netherite_shovel": "Netherite Shovel",
+
+  "item.vanillaaddons.rough_netherite_hoe": "Netherite Hoe",
+  "item.vanillaaddons.flawed_netherite_hoe": "Netherite Hoe",
+  "item.vanillaaddons.fine_netherite_hoe": "Netherite Hoe",
+  "item.vanillaaddons.flawless_netherite_hoe": "Netherite Hoe",
+  "item.vanillaaddons.perfect_netherite_hoe": "Netherite Hoe",
 
   "tooltip.vanillaaddons.empty_line": "",
 

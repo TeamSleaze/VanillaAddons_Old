@@ -26,11 +26,36 @@ public class Main implements ModInitializer {
             new Identifier(Main.MOD_ID, "tools"))
             .icon(() -> new ItemStack(ModItems.FLAWLESS_NETHERITE_PICKAXE))
             .appendItems(stacks -> {
+                //SWORDS
+                stacks.add(new ItemStack(ModItems.ROUGH_NETHERITE_SWORD));
+                stacks.add(new ItemStack(ModItems.FLAWED_NETHERITE_SWORD));
+                stacks.add(new ItemStack(ModItems.FINE_NETHERITE_SWORD));
+                stacks.add(new ItemStack(ModItems.FLAWLESS_NETHERITE_SWORD));
+                stacks.add(new ItemStack(ModItems.PERFECT_NETHERITE_SWORD));
+                //PICKAXES
                 stacks.add(new ItemStack(ModItems.ROUGH_NETHERITE_PICKAXE));
                 stacks.add(new ItemStack(ModItems.FLAWED_NETHERITE_PICKAXE));
                 stacks.add(new ItemStack(ModItems.FINE_NETHERITE_PICKAXE));
                 stacks.add(new ItemStack(ModItems.FLAWLESS_NETHERITE_PICKAXE));
                 stacks.add(new ItemStack(ModItems.PERFECT_NETHERITE_PICKAXE));
+                //AXES
+                stacks.add(new ItemStack(ModItems.ROUGH_NETHERITE_AXE));
+                stacks.add(new ItemStack(ModItems.FLAWED_NETHERITE_AXE));
+                stacks.add(new ItemStack(ModItems.FINE_NETHERITE_AXE));
+                stacks.add(new ItemStack(ModItems.FLAWLESS_NETHERITE_AXE));
+                stacks.add(new ItemStack(ModItems.PERFECT_NETHERITE_AXE));
+                //SHOVELS
+                stacks.add(new ItemStack(ModItems.ROUGH_NETHERITE_SHOVEL));
+                stacks.add(new ItemStack(ModItems.FLAWED_NETHERITE_SHOVEL));
+                stacks.add(new ItemStack(ModItems.FINE_NETHERITE_SHOVEL));
+                stacks.add(new ItemStack(ModItems.FLAWLESS_NETHERITE_SHOVEL));
+                stacks.add(new ItemStack(ModItems.PERFECT_NETHERITE_SHOVEL));
+                //HOES
+                stacks.add(new ItemStack(ModItems.ROUGH_NETHERITE_HOE));
+                stacks.add(new ItemStack(ModItems.FLAWED_NETHERITE_HOE));
+                stacks.add(new ItemStack(ModItems.FINE_NETHERITE_HOE));
+                stacks.add(new ItemStack(ModItems.FLAWLESS_NETHERITE_HOE));
+                stacks.add(new ItemStack(ModItems.PERFECT_NETHERITE_HOE));
             })
             .build();
 
