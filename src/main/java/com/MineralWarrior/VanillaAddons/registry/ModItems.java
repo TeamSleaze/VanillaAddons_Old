@@ -57,6 +57,8 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "gemstone"), GEMSTONE);
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "gemstone_ore"), GEMSTONE_ORE);
 
+
+
         //SWORDS
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "rough_netherite_sword"), ROUGH_NETHERITE_SWORD);
         Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, "flawed_netherite_sword"), FLAWED_NETHERITE_SWORD);

@@ -43,5 +43,6 @@
   "tooltip.vanillaaddons.flawless": "Flawless",
   "tooltip.vanillaaddons.perfect": "Perfect",
 
-  "tooltip.vanillaaddons.counter": "(%d)"
+  "tooltip.vanillaaddons.counter.prefix": "Mined: ",
+  "tooltip.vanillaaddons.counter.number": "%d Blocks"
 }

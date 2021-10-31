@@ -3,6 +3,7 @@ package com.MineralWarrior.VanillaAddons.registry.gemmed_items;
 import com.MineralWarrior.VanillaAddons.registry.ModItems;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.*;
+import net.minecraft.nbt.NbtCompound;
 import net.minecraft.text.Text;
 import net.minecraft.text.TranslatableText;
 import net.minecraft.util.Formatting;
@@ -16,6 +17,7 @@ public class GemmedPickaxeItem extends PickaxeItem {
     public GemmedPickaxeItem(ToolMaterial material) {
         super(material, 6, -2.8f, new Item.Settings());
     }
+
 
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
@@ -41,6 +43,19 @@ public class GemmedPickaxeItem extends PickaxeItem {
             tooltip.add(new TranslatableText("tooltip.vanillaaddons.empty_line"));
         }
 
+        //COUNTER
+        NbtCompound nbtCompound = stack.getNbt();
+
+        if (nbtCompound.contains("minedBlocksCounter")) {
+            tooltip.add(new TranslatableText("tooltip.vanillaaddons.counter.prefix").formatted(Formatting.GRAY));
+            tooltip.add(new TranslatableText("tooltip.vanillaaddons.counter.number", nbtCompound.getLong("minedBlocksCounter")).formatted(Formatting.YELLOW));
+        } else {
+            nbtCompound = new NbtCompound();
+        }
+
+
+
     }
+
 
 }

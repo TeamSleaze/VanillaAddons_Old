@@ -2,11 +2,28 @@ package com.MineralWarrior.VanillaAddons;
 
 import com.MineralWarrior.VanillaAddons.registry.ModBlocks;
 import com.MineralWarrior.VanillaAddons.registry.ModItems;
+import com.MineralWarrior.VanillaAddons.registry.NBT;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
+import net.fabricmc.fabric.api.event.player.AttackBlockCallback;
+import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
+import net.minecraft.block.BlockState;
+import net.minecraft.client.item.TooltipContext;
+import net.minecraft.entity.damage.DamageSource;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.nbt.*;
+import net.minecraft.nbt.visitor.NbtElementVisitor;
+import net.minecraft.text.Text;
+import net.minecraft.util.ActionResult;
 import net.minecraft.util.Identifier;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+
+import java.io.DataOutput;
+import java.io.IOException;
+import java.util.Stack;
 
 public class Main implements ModInitializer {
 
@@ -64,5 +81,23 @@ public class Main implements ModInitializer {
     public void onInitialize() {
         ModItems.registerItems();
         ModBlocks.registerItems();
+
+        PlayerBreakBlockEvent();
     }
+
+
+    public static int blocksMined = 0;
+
+    void PlayerBreakBlockEvent() {
+        PlayerBlockBreakEvents.AFTER.register((world, player, pos, state, blockEntity) -> {
+
+            ItemStack stack = player.getMainHandStack();
+            NBT.setLongNBT(stack, "minedBlocksCounter", blocksMined);
+
+            blocksMined += 1;
+            System.out.println(blocksMined);
+        });
+    }
+
+
 }
